@@ -1,0 +1,8 @@
+{
+    "version": "2.0.10",
+    "app": {
+        "name": "local_naming_test",
+        "package_name": "com.example.local_naming_test"
+    },
+    "main": {}
+}
