@@ -9,8 +9,8 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Home Page')),
-      body: SafeArea(
+      appBar: AppBar(),
+      body: const SafeArea(
         child: Stack(
           fit: StackFit.expand,
           alignment: Alignment(0.0, 0.0),
