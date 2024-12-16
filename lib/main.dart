@@ -3,7 +3,6 @@ import 'package:nowa_runtime/nowa_runtime.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:local_naming_test/globals/app_state.dart';
-import 'package:local_naming_test/pages/home_page.dart';
 
 @NowaGenerated()
 late final SharedPreferences sharedPrefs;
@@ -28,7 +27,7 @@ class MyApp extends StatelessWidget {
       builder: (context, child) => MaterialApp(
         theme: AppState.of(context).theme,
         initialRoute: 'HomePage',
-        routes: {'HomePage': (context) => const HomePage()},
+        routes: {'HomePage': (context) => HomePage()},
       ),
     );
   }
