@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:nowa_runtime/nowa_runtime.dart';
 
 @NowaGenerated({'auto-width': 393.0, 'auto-height': 808.0})
-class BasicCards2 extends StatelessWidget {
+class BasicCards21 extends StatelessWidget {
   @NowaGenerated({'loader': 'auto-constructor'})
-  const BasicCards2({super.key});
+  const BasicCards21({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -34,7 +34,7 @@ class BasicCards2 extends StatelessWidget {
                   FlexSizedBox(
                     width: null,
                     child: Text(
-                      'Welcome Back!214',
+                      'Welcome Back!',
                       style: TextStyle(
                         shadows: [],
                         fontSize: 20.0,
