@@ -9,6 +9,16 @@
             "deps": [
                 "lib/pages/home_page.dart"
             ]
+        },
+        {
+            "x": 955.0,
+            "y": 214.0,
+            "w": 393.0,
+            "h": 808.0,
+            "widget": "const BasicCards2()",
+            "deps": [
+                "lib/basic_cards2.dart"
+            ]
         }
     ]
 }
