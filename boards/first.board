@@ -1,13 +1,23 @@
 {
     "canvases": [
         {
-            "x": 500.0,
-            "y": 200.0,
+            "x": 92.0,
+            "y": -138.0,
             "w": 393.0,
             "h": 808.0,
-            "widget": "const HomePage()",
+            "widget": "const BasicCards1()",
             "deps": [
-                "lib/pages/home_page.dart"
+                "lib/pages/basic_cards1.dart"
+            ]
+        },
+        {
+            "x": 766.0,
+            "y": -138.0,
+            "w": 393.0,
+            "h": 808.0,
+            "widget": "const BasicCards3()",
+            "deps": [
+                "lib/pages/basic_cards3.dart"
             ]
         }
     ]

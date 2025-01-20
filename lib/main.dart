@@ -2,8 +2,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'package:nowa_runtime/nowa_runtime.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:local_naming_test/globals/app_state.dart';
-import 'package:local_naming_test/pages/home_page.dart';
+import 'package:local_naming_test/globals/my_app_state.dart';
 
 @NowaGenerated()
 late final SharedPreferences sharedPrefs;
@@ -23,12 +22,11 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ChangeNotifierProvider<AppState>(
-      create: (context) => AppState(),
+    return ChangeNotifierProvider<MyAppState>(
+      create: (context) => MyAppState(),
       builder: (context, child) => MaterialApp(
-        theme: AppState.of(context).theme,
-        initialRoute: 'HomePage',
-        routes: {'HomePage': (context) => const HomePage()},
+        theme: MyAppState.of(context).theme,
+        routes: {},
       ),
     );
   }
