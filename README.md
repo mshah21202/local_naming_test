@@ -1,6 +1,6 @@
 # local_naming_test
 
-A new Flutter project.
+Testing
 
 ## Getting Started
 
