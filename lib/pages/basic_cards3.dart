@@ -34,7 +34,7 @@ class BasicCards3 extends StatelessWidget {
                   FlexSizedBox(
                     width: null,
                     child: Text(
-                      'Welcome Back asdj',
+                      'Welcome Back',
                       style: TextStyle(
                         shadows: [],
                         fontSize: 20.0,
